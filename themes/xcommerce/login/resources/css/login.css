@@ -1,0 +1,254 @@
+/* Reset styles */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+/* Login styles */
+.login-content {
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.login-content .box {
+  max-width: 100%;
+  padding: 1rem;
+  width: 400px;
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  margin-left: auto;
+  background-color: #ffffff;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24), 0 0 2px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+.login-content .box .box-container {
+  width: 100%;
+}
+
+.login-content .box .logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 1rem auto;
+  max-width: 100%;
+  height: auto;
+  width: 240px;
+}
+
+.login-content .box .form {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.login-content .box .login-field {
+  display: block;
+  width: 100%;
+  height: 2rem;
+  font-family: "Roboto", sans-serif;
+
+  font-size: 1rem;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: left;
+  color: #000000;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  background-color: #fff;
+}
+
+.login-content .box input[type="text"]:focus,
+.login-content .box input[type="password"]:focus {
+  border-color: #008371;
+  transition: border-bottom 0.3s ease-in-out;
+}
+
+.login-content .box input[type="text"]:-webkit-autofill,
+.login-content .box input[type="password"]:-webkit-autofill {
+  box-shadow: 0 0 0px 1000px white inset;
+}
+
+.login-content .box .submit {
+  width: 100%;
+  height: 2.4rem;
+  border-radius: 2px;
+  background-color: #008371;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  border-style: none;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.login-content .box .visibility {
+  position: relative;
+  left: 90%;
+  top: 1.4rem;
+  width: 1rem;
+  height: 1rem;
+  opacity: 0.5;
+  border: none;
+}
+
+.login-content .copyright {
+  min-width: 100%;
+  text-align: center;
+  font-size: 0.8rem;
+  opacity: 0.5;
+  position: relative;
+}
+
+.message-text {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  color: #b8082a;
+  opacity: 0.8;
+  margin-bottom: 1rem;
+}
+
+.identity-providers {
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.8;
+  text-align: left;
+  color: #0055b8;
+  margin-top: 20px;
+}
+
+.login-content .box .social-link-style {
+  width: 320px;
+  height: 36px;
+  border-radius: 2px;
+  background-color: var(--white);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #008371;
+  border-style: solid;
+  border-color: #008371;
+  margin-top: 0px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+.login-content .box .para {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  margin-left: 30px;
+}

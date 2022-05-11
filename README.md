@@ -10,7 +10,7 @@ KC_HOSTNAME_STRICT_BACKCHANNEL=true
 ```
 
 [Reference 1](https://keycloak.discourse.group/t/keycloak-17-run-in-docker-behind-nginx-reverse-proxy/13862/2)\
-[Reference 2](https://keycloak.discourse.group/t/differences-between-keycloak-and-keycloak-x-docker-images/9459/5)\
+[Reference 2](https://keycloak.discourse.group/t/differences-between-keycloak-and-keycloak-x-docker-images/9459/5)
 
 Old Config:
 ```shell

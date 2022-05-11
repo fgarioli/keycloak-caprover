@@ -4,7 +4,7 @@ FROM quay.io/keycloak/keycloak:${KC_VERSION} as builder
 
 ENV KC_HEALTH_ENABLED=true
 ENV KC_METRICS_ENABLED=true
-ENV KC_FEATURES=admin-fine-grained-authz,token-exchange,scripts
+ENV KC_FEATURES=admin-fine-grained-authz,token-exchange,upload-scripts
 ARG KC_DB=${KC_DB}
 ENV KC_DB=$KC_DB
 

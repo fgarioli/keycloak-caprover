@@ -1,4 +1,4 @@
-ARG KC_VERSION=17.0.0
+ARG KC_VERSION=18.0.0
 
 FROM quay.io/keycloak/keycloak:${KC_VERSION} as builder
 

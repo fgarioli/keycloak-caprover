@@ -7,6 +7,7 @@ KEYCLOAK_ADMIN=keycloak_admin_user
 KEYCLOAK_ADMIN_PASSWORD=keycloak_admin_password
 KC_HOSTNAME=keycloak_url
 KC_HOSTNAME_STRICT_BACKCHANNEL=true
+JAVA_OPTS=-Xms64m -Xmx512m -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true
 ```
 
 [Reference 1](https://keycloak.discourse.group/t/keycloak-17-run-in-docker-behind-nginx-reverse-proxy/13862/2)\

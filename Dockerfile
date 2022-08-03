@@ -1,4 +1,4 @@
-ARG KC_VERSION=18.0.2
+ARG KC_VERSION=19.0.1
 
 FROM quay.io/keycloak/keycloak:${KC_VERSION} as builder
 
@@ -29,7 +29,6 @@ ENV KC_DB_PASSWORD=$KC_DB_PASSWORD
 
 ENV KC_PROXY=edge
 ENV KC_HTTP_ENABLED=true
-ENV KC_HOSTNAME_STRICT=false
 
 COPY ./themes/. themes/
 
